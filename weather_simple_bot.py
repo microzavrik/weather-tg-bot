@@ -3,8 +3,8 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.types import ParseMode
 from aiogram import executor
 
-API_TOKEN = '6702812875:AAHqBs3I7lVqR6qMQYH-LQWogdb2cfXjXoM'
-OWM_API_KEY = '3d7b2005a8bd8e2fd677621b86b451e0'
+API_TOKEN = 'your_token'
+OWM_API_KEY = 'OWM_API_KEY'
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
